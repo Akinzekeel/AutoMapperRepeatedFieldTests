@@ -1,0 +1,7 @@
+﻿syntax = "proto3";
+option csharp_namespace = "AutoMapperRepeatedFieldTests.Protos";
+
+message PersonDto {
+	string Name = 1;
+	repeated string PetNames = 2;
+}
